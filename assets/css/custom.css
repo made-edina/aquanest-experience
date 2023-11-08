@@ -6,6 +6,7 @@ body {
 .pb_banner {
     position: relative;
     height: auto;
+    background: #f3feff;
 }
 
 .pb_section, .pb_footer {
