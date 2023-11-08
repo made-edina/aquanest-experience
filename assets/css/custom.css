@@ -32,7 +32,11 @@ body {
     font-size: 14px !important;
 }
 
-a {
+.pb_navbar .nav-link {
+    text-align: center;
+}
+
+.pb_footer a {
     color: white !important;
 }
 
@@ -49,12 +53,27 @@ a {
     color: #c0e9ef !important;
 }
 
+.pb_navbar.scrolled .navbar-toggler {
+    color: white;
+}
+
+.pb_services {
+    text-transform: uppercase;
+    color: black;
+}
+
 .testimonial_v1 blockquote {
     font-family: 'Proza Libre', sans-serif;
 }
 
+/* INSTAGRAM SECTION */
 #section-instagram .row {
-    padding: 4em 0;
+    padding: 3em 0;
+}
+
+.instagram-picture {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .pb_footer {
@@ -63,21 +82,38 @@ a {
 
 @media (min-width: 767px) {
     #testi {
-        height: 1000px
+        height: 600px;
+        font-size: 16px;
 }
 }
 
 @media (min-width: 991px) {
     #testi {
-        height: 700px
+        height: 450px;
 }
 }
 
 @media (min-width: 1200px) {
     #testi {
-        height: 600px;
+        height: 500px;
+        font-size: 18px;
         padding: 0 30px;
 }
+}
+
+@media (max-width: 767px) {
+    .pb_md_py_cover {
+        padding: 4em 0;
+    }
+
+    #section-instagram .row {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .instagram-picture {
+        padding: 10px;
+    }
 }
 
 #section-events {
