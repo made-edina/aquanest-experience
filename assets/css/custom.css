@@ -1,0 +1,89 @@
+body {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 18px;
+}
+
+.pb_banner {
+    position: relative;
+    height: auto;
+}
+
+.pb_section, .pb_footer {
+    background-color: #f3feff;
+}
+
+.pb_navbar.scrolled.pb_scrolled-light {
+    background: #033163 !important;
+}
+
+.pb_footer {
+    background: #033163 !important;
+}
+
+.cover-bg-ricefield {
+    background-color: rgb(245, 255, 238);
+}
+
+.pb_navbar {
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.pb_navbar ul li a {
+    font-size: 14px !important;
+}
+
+a {
+    color: white !important;
+}
+
+.pb_navbar.scrolled.pb_scrolled-light ul li a {
+    color: white !important;
+}
+
+.pb_navbar.scrolled.pb_scrolled-light ul li a.active {
+    color: white !important;
+    font-weight: bold;
+}
+
+.pb_navbar.scrolled.pb_scrolled-light ul li a:hover, .pb_navbar.scrolled.pb_scrolled-light ul li a:active, .pb_navbar.scrolled.pb_scrolled-light ul li a:focus {
+    color: #c0e9ef !important;
+}
+
+.testimonial_v1 blockquote {
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.pb_footer {
+    padding: 3.5em 0;
+}
+
+@media (min-width: 767px) {
+    #testi {
+        height: 1000px
+}
+}
+
+@media (min-width: 991px) {
+    #testi {
+        height: 700px
+}
+}
+
+@media (min-width: 1200px) {
+    #testi {
+        height: 600px;
+        padding: 0 30px;
+}
+}
+
+#section-events {
+    background-color: rgb(245, 255, 238);
+}
+
+.card-deck .card .card-body {
+    background-color: #fffdfb;
+}
+
+#openinghours p {
+    font-size: 20px;
+}
