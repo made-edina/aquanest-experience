@@ -53,6 +53,10 @@ a {
     font-family: 'Proza Libre', sans-serif;
 }
 
+#section-instagram .row {
+    padding: 4em 0;
+}
+
 .pb_footer {
     padding: 3.5em 0;
 }
