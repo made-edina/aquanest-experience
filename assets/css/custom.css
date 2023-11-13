@@ -14,6 +14,37 @@ body {
     padding: 0;
 }
 
+.slick-dots li button {
+    margin-top: -50px;
+    width: 15px;
+    height: 15px;
+}
+
+.slick-dots li.slick-active button:before {
+    background: white;
+    width: 15px;
+    height: 15px;
+}
+
+.slick-dots li button:before {
+    width: 15px;
+    height: 15px;
+}
+
+.slick-next {
+    right: 20px;
+    border: none !important;
+}
+
+.slick-prev {
+    left: 20px;
+    border: none !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 50px;
+}
+
 .pb_section, .pb_footer {
     background-color: #f3feff;
 }
